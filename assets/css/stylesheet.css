@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: AmazonEmber_Rg;
+    color: white;
 }
 .topnavbar {
     display: flex;
@@ -27,4 +28,11 @@ body {
     color: white;
     margin-left: 70px;
     font-family: AmazonEmber_Rg;
+}
+#Holiday {
+    display: flex;
+    height: 30px;
+    background-color: #f56600;
+    justify-content: center;
+    align-items: center;
 }
