@@ -1,13 +1,23 @@
-.child {
-    width: 100px;
-    height: 100px;
-    color: white;
-    background-color: orange;
-    margin: 5px;
-    padding: 10px;
-    font-size: 2em;
+body {
+    margin: 0px;
 }
-#container {
+.topnavbar {
     display: flex;
-    flex-direction: row;
+    background-color: #222f3e;
+    height: 120px;
+    margin: 0px;
+    align-items: center;
+}
+#logo {
+    height: 65px;
+    margin-left: 70px;
+}
+.bottomnavbar {
+    display: flex;
+    background-color: #354758;
+    height: 65px;
+    align-items: center;
+}
+.navbartext {
+    margin-left: 70px;
 }
