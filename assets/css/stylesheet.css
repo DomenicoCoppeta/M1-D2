@@ -1,5 +1,10 @@
+@font-face {
+    font-family: AmazonEmber_Rg;
+    src: url(AmazonEmber_Rg.ttf);
+}
 body {
     margin: 0px;
+    font-family: AmazonEmber_Rg;
 }
 .topnavbar {
     display: flex;
