@@ -4,7 +4,7 @@
 }
 body {
     background-color: #eaeded;
-    font-family: AmazonEmber_Rg;
+    font-family: url(AmazonEmber_Rg.ttf);
     color: white;
     width: 100%;
     margin: 0px 0px 0px 0px;
