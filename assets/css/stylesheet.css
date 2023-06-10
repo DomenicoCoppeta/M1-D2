@@ -3,36 +3,51 @@
     src:url(AmazonEmber_Rg.ttf);
 }
 body {
-    margin: 0px;
     font-family: AmazonEmber_Rg;
     color: white;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 .topnavbar {
     display: flex;
     background-color: #222f3e;
-    height: 120px;
-    margin: 0px;
+    height: 60px;
+    width: auto;
     align-items: center;
 }
 #logo {
-    height: 65px;
-    margin-left: 70px;
+    height: 35px;
+    width: auto;
+    margin-left: 35px;
 }
 .bottomnavbar {
     display: flex;
     background-color: #354758;
-    height: 65px;
+    height: 32px;
     align-items: center;
 }
 .navbartext {
     color: white;
-    margin-left: 70px;
+    text-align: left;
+    margin-left: 35px;
     font-family: AmazonEmber_Rg;
+    font
 }
-#Holiday {
+.item {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+#orangebar {
     display: flex;
-    height: 30px;
+    height: 35px;
     background-color: #f56600;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+}
+main {
+    margin: 30px 30px 30px 30px;
+}
+img {
+    width: 100%;
 }
