@@ -50,5 +50,8 @@ main {
 }
 #giftguidebanner {
     height: 196px;
+    width: auto;
+}
+img {
     width: 100%;
 }
