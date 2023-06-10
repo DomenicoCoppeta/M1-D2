@@ -4,7 +4,7 @@
 }
 body {
     background-color: #eaeded;
-    font-family: url(AmazonEmber_Rg.ttf);
+    font-family: AmazonEmber_Rg;
     color: white;
     width: 100%;
     margin: 0px 0px 0px 0px;
@@ -52,10 +52,12 @@ main {
     width: auto;
 }
 .slideshow {
+    background-color: white;
+    height: 480px;
     display: flex;
-    width: inherit;
+    justify-content: center;
     justify-items: center;
 }
 .pic {
-    height: 380px;
+    margin: 56px 20px 20px 20px;
 }
