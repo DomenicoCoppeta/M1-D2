@@ -1,8 +1,9 @@
 @font-face {
     font-family: AmazonEmber_Rg;
-    src:url(AmazonEmber_Rg.ttf);
+    src: url(AmazonEmber_Rg.ttf);
 }
 body {
+    background-color: #eaeded;
     font-family: AmazonEmber_Rg;
     color: white;
     width: 100%;
@@ -30,7 +31,7 @@ body {
     color: white;
     text-align: left;
     margin-left: 35px;
-    font-family: AmazonEmber_Rg;
+    font-family: url(AmazonEmber_Rg.ttf)
 }
 .item {
     margin-left: 0px;
@@ -47,6 +48,7 @@ body {
 main {
     margin: 30px 30px 30px 30px;
 }
-img {
+#giftguidebanner {
+    height: 196px;
     width: 100%;
 }
