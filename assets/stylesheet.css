@@ -33,17 +33,6 @@ body {
     text-align: left;
     margin-left: 35px;
 }
-.imagebar {
-    display: flex;
-    background-color: white;
-    height: 32px;
-    align-items: center;
-}
-.imagebartext {
-    color: rgb(0, 0, 0);
-    text-align: left;
-    margin-left: 35px;
-}
 .item {
     margin-left: 0px;
     margin-right: 20px;
@@ -79,16 +68,17 @@ h3 {
     top: 55%;
     transform: translate(-50%, -50%);
   }
-.slideshow {
+.container {
     display: flex;
-    place-items: bottom;
-    background-color: white;
-    flex-direction: row;
-    justify-items: center;
+    width: 100%;
+    background: white;
 }
-.pic {
-    margin: 20px 20px 20px 20px;
+.cards {
+}
+.cards-img{
+    width: 300px;
     height: 380px;
+    object-fit: cover;
 }
 .fullimage {
     margin-top: 30px;
@@ -96,6 +86,7 @@ h3 {
 .topfooter {
     color: white;
     background-color: #354758;
+    margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
@@ -114,8 +105,12 @@ h3 {
 #logofooter {
     height: 50px;
 }
-#spanblack{
-    color: black;
-    height: 35px;
-    background-color: white;
+.blackspan {
+    color: black; 
+    margin-right: 20px; 
+    font-size: 1.5em;
+}
+.spanlink {
+    display: inline;
+    color: #00566d;
 }
