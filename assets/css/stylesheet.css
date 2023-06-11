@@ -8,6 +8,8 @@ body {
     color: white;
     width: 100%;
     margin: 0px 0px 0px 0px;
+    text-align: center;
+    te
 }
 .topnavbar {
     display: flex;
@@ -37,20 +39,30 @@ body {
     margin-right: 20px;
 }
 #orangebar {
-    display: flex;
+    display: block;
     height: 35px;
     background-color: #f56600;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
+    line-height: 35px;
 }
 main {
     margin: 30px 30px 30px 30px;
 }
 #giftguidebanner {
-    height: 196px;
+    height: 195px;
     width: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: darkmagenta;
+    margin-bottom: 35px;
 }
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .slideshow {
     background-color: white;
     flex-direction: row;
@@ -66,12 +78,12 @@ main {
 }
 .topfooter {
     color: white;
-    display: block;
     background-color: #354758;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
     text-align: center;
+    line-height: 50px;
 }
 .bottomfooter {
     display: flex;
