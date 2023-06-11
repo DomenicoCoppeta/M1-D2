@@ -53,6 +53,7 @@ main {
 }
 .slideshow {
     background-color: white;
+    flex-direction: row;
     height: 480px;
     display: flex;
     justify-items: center;
